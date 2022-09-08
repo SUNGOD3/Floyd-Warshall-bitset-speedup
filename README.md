@@ -60,4 +60,4 @@ But it is still much faster than the original method.
 
 Here are the random test results when n=1000:
 
-<img src="README_IMG/Results_after_comparison.png" width="25%">  
+<img src="README_IMG/Results_after_comparison.png" width="50%">  
