@@ -9,28 +9,17 @@ n*n matrix A, A[i][j] indicates whether i can reach j through the given edge of 
 
 e.g. 
 
-input:
+input: &emsp;&emsp;&ensp; output:
 
-4
+4 <br>
+1 1 1 0 &emsp;&emsp; 1 1 1 1 <br>
+0 1 0 1 &emsp;&emsp; 0 1 0 1 <br>
+1 0 1 0 &emsp;&emsp; 1 1 1 1 <br>
+0 0 0 1 &emsp;&emsp; 0 0 0 1 
 
-1 1 1 0
-
-0 1 0 1
-
-1 0 1 0
-
-0 0 0 1
-
-means:
-
-and you should output:
-
-1 1 1 1
-
-0 1 0 1
-
-1 1 1 1
-
-0 0 0 1
+which means: <br>
+(Output explanation: 1->2->4 | 3->1->2 | 3->1->2->4)<br>
+<img src="README_IMG/input.png" width="25%">  
 
 # Solution
+
