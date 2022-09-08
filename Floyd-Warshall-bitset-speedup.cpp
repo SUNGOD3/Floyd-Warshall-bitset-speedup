@@ -20,11 +20,9 @@ int main(){
 		and_mask[k]=0;
 	}
 	for(int i=0;i<n;++i){
-		for(int j=0;j<n;++j){
-			and_mask[j]=1;
-			(dp[i]&and_mask).any()?cout << "1 ":cout << "0 ";
-			and_mask[j]=0;
-		}
+		for(int j=0;j<n;++j)
+			dp[i][j]?cout << "1 ":cout << "0 ";
 		cout << "\n";
 	}
+	return 0;
 } 
