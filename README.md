@@ -52,3 +52,12 @@ for (k = 0; k < n; ++k)
   0001 &emsp; 0001 = 0001|0
 
 3. Code ideas~
+
+# Analysis
+Unfortunately, even though the code doesn't appear to have more than 3 levels of loops, this part cannot be considered a constant for bitset operations (it's just a faster array operation). So the time complexity is still O(n^3).
+
+But it is still much faster than the original method.
+
+Here are the random test results when n=1000:
+
+<img src="README_IMG/Results_after_comparison.png" width="25%">  
